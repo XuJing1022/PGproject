@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 9.5.2
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/opt/pgsql/include
+Libs: -L/opt/pgsql/lib -lecpg
+Libs.private:  -lm -lpthread
